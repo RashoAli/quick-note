@@ -1,0 +1,72 @@
+.sidebar {
+  text-align: left;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-right: 3px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-width: 200px;
+  max-width: 200px;
+  height: max-content;
+}
+
+.li {
+  color: white;
+  font-size: 15px;
+  font-family: Montserrat;
+  padding: 10px 5px 10px 5px;
+  border-bottom: 1px solid white;
+}
+
+.li:hover {
+  text-shadow: 0 0 3px;
+  cursor: pointer;
+}
+
+#noteDisplay {
+  width: 100%;
+  padding: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#delete,
+#cancelEdit {
+  margin-left: auto;
+  width: min-content;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+#saveEdit,
+#edit {
+  margin-left: 20px;
+  width: min-content;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+#edit:hover,
+#delete:hover,
+#cancelEdit:hover,
+#saveEdit:hover {
+  text-shadow: 0 0 3px;
+  cursor: pointer;
+}
+
+.selectedItem {
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: Montserrat;
+  padding: 10px 5px 10px 5px;
+  border-bottom: 1px solid white;
+}

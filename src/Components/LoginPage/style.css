@@ -1,0 +1,62 @@
+.title {
+  color: #282c34;
+  font-family: Montserrat;
+}
+
+.box {
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.box input[type="button"],
+.box input[type="text"],
+.box input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #282c34;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: #282c34;
+  border-radius: 25px;
+  transition: 0.25s;
+}
+
+.box input[type="button"]:hover,
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+  width: 250px;
+  border-color: #282c34;
+  color: #282c34;
+  cursor: pointer;
+  text-shadow: 0 0 1px white;
+}
+
+.box input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 25px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+  background: #2ecc71;
+}

@@ -1,0 +1,42 @@
+#contact {
+  padding: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#title,
+#note {
+  font-family: Montserrat;
+  box-sizing: border-box;
+  background-color: transparent;
+  color: white;
+  width: 100%;
+  border: 0;
+  padding: 10px;
+  box-shadow: none;
+}
+
+#title {
+  font-size: x-large;
+}
+
+#note {
+  font-size: large;
+  resize: none;
+}
+
+#save {
+  margin-left: auto;
+  width: min-content;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+#save:hover {
+  text-shadow: 0 0 3px;
+  cursor: pointer;
+}
